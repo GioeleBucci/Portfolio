@@ -27191,7 +27191,7 @@ const imageAltText = "purple and blue abstract background";
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
- */ const detailOrQuote = "Sono appassionato di programmazione ad ogni livello. Mi piace risolvere problemi e mettermi alla prova.";
+ */ const detailOrQuote = "Sono appassionato di programmazione in ogni sua forma. Mi piace risolvere problemi e mettermi alla prova.";
 const About = ()=>{
     const isMobile = window.matchMedia("(max-width: 767px)").matches;
     if (isMobile) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -27264,7 +27264,7 @@ const About = ()=>{
                         style: {
                             textAlign: "left",
                             columns: 2,
-                            fontSize: ".8rem"
+                            fontSize: "1rem"
                         },
                         children: skillsList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: skill
@@ -27302,7 +27302,7 @@ const About = ()=>{
         lineNumber: 48,
         columnNumber: 7
     }, undefined);
-    else return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
         id: "about",
         children: [
@@ -27312,8 +27312,8 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 87,
-                columnNumber: 9
+                lineNumber: 85,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
@@ -27328,8 +27328,8 @@ const About = ()=>{
                         children: "About Me"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 97,
-                        columnNumber: 11
+                        lineNumber: 95,
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         className: "large",
@@ -27337,8 +27337,8 @@ const About = ()=>{
                             "Studente di Ingegneria e Scienze Informatiche presso l'Universit\xe0 di Bologna.",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 100,
-                                columnNumber: 13
+                                lineNumber: 98,
+                                columnNumber: 11
                             }, undefined),
                             " Ho lavorato con",
                             " ",
@@ -27350,21 +27350,21 @@ const About = ()=>{
                                 children: "RoBee"
                             }, void 0, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 101,
-                                columnNumber: 13
+                                lineNumber: 99,
+                                columnNumber: 11
                             }, undefined),
                             " ",
                             ", il primo robot umanoide cognitivo italiano"
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 98,
-                        columnNumber: 11
+                        lineNumber: 96,
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 106,
-                        columnNumber: 11
+                        lineNumber: 104,
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                         style: {
@@ -27378,18 +27378,18 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 117,
-                                columnNumber: 15
+                                lineNumber: 115,
+                                columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 107,
-                        columnNumber: 11
+                        lineNumber: 105,
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 120,
-                        columnNumber: 11
+                        lineNumber: 118,
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         style: {
@@ -27398,20 +27398,20 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 121,
-                        columnNumber: 11
+                        lineNumber: 119,
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 88,
-                columnNumber: 9
+                lineNumber: 86,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 86,
-        columnNumber: 7
+        lineNumber: 84,
+        columnNumber: 5
     }, undefined);
 };
 _c = About;
@@ -28977,7 +28977,8 @@ const Portfolio = ()=>{
                             children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "project",
                                     style: {
-                                        maxWidth: "300px"
+                                        maxWidth: "300px",
+                                        alignContent: "center"
                                     },
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28986,29 +28987,30 @@ const Portfolio = ()=>{
                                             rel: "noopener noreferrer",
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
                                                 style: {
-                                                    flexBasis: "40px",
-                                                    color: "indigo"
+                                                    flexBasis: "48px",
+                                                    color: "indigo",
+                                                    fontSize: "16px"
                                                 },
                                                 children: project.title
                                             }, void 0, false, {
                                                 fileName: "src/Components/Portfolio.jsx",
-                                                lineNumber: 79,
+                                                lineNumber: 83,
                                                 columnNumber: 21
                                             }, undefined)
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 78,
+                                            lineNumber: 82,
                                             columnNumber: 19
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                             className: "small",
                                             style: {
-                                                fontSize: "12px"
+                                                fontSize: "14px"
                                             },
                                             children: project.description
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 81,
+                                            lineNumber: 87,
                                             columnNumber: 19
                                         }, undefined)
                                     ]
@@ -29050,7 +29052,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 95,
+                lineNumber: 101,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29075,12 +29077,12 @@ const Portfolio = ()=>{
                             alt: imageAltText
                         }, void 0, false, {
                             fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 98,
+                            lineNumber: 104,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 97,
+                        lineNumber: 103,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29100,12 +29102,12 @@ const Portfolio = ()=>{
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 108,
+                                            lineNumber: 114,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 107,
+                                        lineNumber: 113,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29113,30 +29115,30 @@ const Portfolio = ()=>{
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 110,
+                                        lineNumber: 116,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, project.title, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 106,
+                                lineNumber: 112,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 104,
+                        lineNumber: 110,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 96,
+                lineNumber: 102,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 94,
+        lineNumber: 100,
         columnNumber: 5
     }, undefined);
 };
