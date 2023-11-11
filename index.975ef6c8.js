@@ -27224,7 +27224,7 @@ const About = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         style: {
                             textAlign: "center",
-                            fontSize: ".8rem",
+                            fontSize: ".9rem",
                             margin: ".8rem"
                         },
                         children: [
@@ -27281,7 +27281,7 @@ const About = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         style: {
                             textAlign: "center",
-                            fontSize: ".8rem",
+                            fontSize: ".9rem",
                             margin: ".8rem"
                         },
                         children: detailOrQuote
@@ -28667,14 +28667,6 @@ const Header = ()=>{
         },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#home",
-                children: "Home"
-            }, void 0, false, {
-                fileName: "src/Components/Header.jsx",
-                lineNumber: 24,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#about",
                 children: "About"
             }, void 0, false, {
@@ -28768,9 +28760,9 @@ const Home = ({ name , title  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     position: "absolute",
-                    top: "2rem",
-                    left: "1rem",
-                    width: "15rem"
+                    top: "5rem",
+                    left: "2rem",
+                    width: "17rem"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
@@ -28778,24 +28770,34 @@ const Home = ({ name , title  })=>{
                         lineNumber: 37,
                         columnNumber: 11
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        style: {
-                            fontWeight: "bold"
-                        },
-                        children: name
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/Components/Home.jsx",
                         lineNumber: 38,
                         columnNumber: 11
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/Components/Home.jsx",
+                        lineNumber: 39,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         style: {
-                            fontWeight: "italic"
+                            fontSize: "2rem"
+                        },
+                        children: name
+                    }, void 0, false, {
+                        fileName: "src/Components/Home.jsx",
+                        lineNumber: 40,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        style: {
+                            fontSize: "1.5rem"
                         },
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 39,
+                        lineNumber: 41,
                         columnNumber: 11
                     }, undefined)
                 ]
@@ -28817,10 +28819,14 @@ const Home = ({ name , title  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
                 src: (0, _womanWithTabletJpgDefault.default),
-                alt: ""
+                alt: "",
+                style: {
+                    maxWidth: "100%",
+                    maxHeight: "100%"
+                }
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 46,
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28835,26 +28841,26 @@ const Home = ({ name , title  })=>{
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 48,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 49,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 47,
+                lineNumber: 54,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Home.jsx",
-        lineNumber: 45,
+        lineNumber: 47,
         columnNumber: 5
     }, undefined);
 };
@@ -28980,7 +28986,8 @@ const Portfolio = ()=>{
                                             rel: "noopener noreferrer",
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
                                                 style: {
-                                                    flexBasis: "40px"
+                                                    flexBasis: "40px",
+                                                    color: "indigo"
                                                 },
                                                 children: project.title
                                             }, void 0, false, {
@@ -29087,7 +29094,8 @@ const Portfolio = ()=>{
                                         rel: "noopener noreferrer",
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                             style: {
-                                                flexBasis: "40px"
+                                                flexBasis: "40px",
+                                                color: "indigo"
                                             },
                                             children: project.title
                                         }, void 0, false, {
