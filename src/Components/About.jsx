@@ -21,10 +21,8 @@ import image from "../images/motion-background.jpg";
 const imageAltText = "purple and blue abstract background";
 
 /**
- * Sort description that expands on your title on the Home component.
+ * description is in the html.
  */
-
-
 const websiteUrl = "https://oversonicrobotics.com/projects/robee/";
 
 /**
