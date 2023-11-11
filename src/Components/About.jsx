@@ -41,46 +41,87 @@ const detailOrQuote =
   "Sono appassionato di programmazione ad ogni livello. Mi piace risolvere problemi e mettermi alla prova.";
 
 const About = () => {
-  return (
-    <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
-      <div
-        style={{
-          backgroundColor: "white",
-          width: "50%",
-          padding: "4rem",
-          margin: "3rem auto",
-          textAlign: "center",
-        }}
-      >
-        <h2>About Me</h2>
-        <p className="large">
-          Studente di Ingegneria e Scienze Informatiche presso l&apos;Università di Bologna.
-          <br></br> Ho lavorato con{" "}
-          <a href={websiteUrl} style={{ color: "purple" }}>
-            RoBee
-          </a>{" "}
-          , il primo robot umanoide cognitivo italiano
-        </p>
-        <hr />
-        <ul
+  const isMobile = window.matchMedia("(max-width: 767px)").matches;
+
+  if (isMobile) {
+    return (
+      <section className="padding" id="about">
+        <img className="background" src={image} alt={imageAltText} />
+        <div
           style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
+            backgroundColor: "white",
+            width: "100%",
+            textAlign: "center",
           }}
         >
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-        <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
-      </div>
-    </section>
-  );
+          <h3>About Me</h3>
+          <p style={{ textAlign: "center", fontSize: ".8rem", margin: ".8rem" }}>
+            Studente di Ingegneria e Scienze Informatiche presso l&apos;Università di Bologna.
+            <br></br> Ho lavorato con{" "}
+            <a href={websiteUrl} style={{ color: "purple" }}>
+              RoBee
+            </a>{" "}
+            , il primo robot umanoide cognitivo italiano
+          </p>
+          <hr />
+          <ul
+            style={{
+              textAlign: "left",
+              columns: 2,
+              fontSize: ".8rem",
+            }}
+          >
+            {skillsList.map((skill) => (
+              <li key={skill}>{skill}</li>
+            ))}
+          </ul>
+          <p style={{ textAlign: "center", fontSize: ".8rem", margin: ".8rem" }}>{detailOrQuote}</p>
+        </div>
+      </section>
+    );
+  }
+  // THIS SUCK
+  else
+    return (
+      <section className="padding" id="about">
+        <img className="background" src={image} alt={imageAltText} />
+        <div
+          style={{
+            backgroundColor: "white",
+            width: "50%",
+            padding: "4rem",
+            margin: "3rem auto",
+            textAlign: "center",
+          }}
+        >
+          <h2>About Me</h2>
+          <p className="large">
+            Studente di Ingegneria e Scienze Informatiche presso l&apos;Università di Bologna.
+            <br></br> Ho lavorato con{" "}
+            <a href={websiteUrl} style={{ color: "purple" }}>
+              RoBee
+            </a>{" "}
+            , il primo robot umanoide cognitivo italiano
+          </p>
+          <hr />
+          <ul
+            style={{
+              textAlign: "left",
+              columns: 2,
+              fontSize: "1.25rem",
+              margin: "2rem 3rem",
+              gap: "3rem",
+            }}
+          >
+            {skillsList.map((skill) => (
+              <li key={skill}>{skill}</li>
+            ))}
+          </ul>
+          <hr />
+          <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        </div>
+      </section>
+    );
 };
 
 export default About;
