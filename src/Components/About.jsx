@@ -24,8 +24,9 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 
-const description =
-  "Studente di Ingegneria e Scienze Informatiche presso l'Università di Bologna. Ho lavorato con RoBee, il primo robot umanoide cognitivo italiano.";
+
+const websiteUrl = "https://oversonicrobotics.com/projects/robee/";
+
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
@@ -55,7 +56,14 @@ const About = () => {
         }}
       >
         <h2>About Me</h2>
-        <p className="large">{description}</p>
+        <p className="large">
+          Studente di Ingegneria e Scienze Informatiche presso l&apos;Università di Bologna.
+          <br></br> Ho lavorato con{" "}
+          <a href={websiteUrl} style={{ color: "#4E567E" }}>
+            RoBee
+          </a>{" "}
+          , il primo robot umanoide cognitivo italiano
+        </p>
         <hr />
         <ul
           style={{
