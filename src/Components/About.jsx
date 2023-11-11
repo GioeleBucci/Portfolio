@@ -55,7 +55,7 @@ const About = () => {
           }}
         >
           <h3>About Me</h3>
-          <p style={{ textAlign: "center", fontSize: ".8rem", margin: ".8rem" }}>
+          <p style={{ textAlign: "center", fontSize: ".9rem", margin: ".8rem" }}>
             Studente di Ingegneria e Scienze Informatiche presso l&apos;Università di Bologna.
             <br></br> Ho lavorato con{" "}
             <a href={websiteUrl} style={{ color: "purple" }}>
@@ -75,7 +75,7 @@ const About = () => {
               <li key={skill}>{skill}</li>
             ))}
           </ul>
-          <p style={{ textAlign: "center", fontSize: ".8rem", margin: ".8rem" }}>{detailOrQuote}</p>
+          <p style={{ textAlign: "center", fontSize: ".9rem", margin: ".8rem" }}>{detailOrQuote}</p>
         </div>
       </section>
     );

@@ -27,11 +27,15 @@ const Home = ({ name, title }) => {
   if (isMobile) {
     return (
       <section id="home" className="min-height">
-        <img className="background" src={image} alt="" style={{ maxWidth: "100%", maxHeight: "100%" }} />
-        <div style={{ position: "absolute", top: "2rem", left: "1rem", width: "15rem" }}>
-          <br />
-          <h2 style={{ fontWeight: "bold" }}>{name}</h2>
-          <h3 style={{ fontWeight: "italic" }}>{title}</h3>
+        <img
+          className="background"
+          src={image}
+          alt=""
+          style={{ maxWidth: "100%", maxHeight: "100%" }}
+        />
+        <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
+          <h1 style={{ fontSize: "2rem" }}>{name}</h1>
+          <h2 style={{ fontSize: "1.5rem" }}>{title}</h2>
         </div>
       </section>
     );
