@@ -76,7 +76,7 @@ const Portfolio = () => {
               {projectList.map((project) => (
                 <div className="project" key={project.title} style={{ maxWidth: "300px" }}>
                   <a href={project.url} target="_blank" rel="noopener noreferrer">
-                    <h5 style={{ flexBasis: "40px" }}>{project.title}</h5>
+                    <h5 style={{ flexBasis: "40px", color: "indigo" }}>{project.title}</h5>
                   </a>
                   <p className="small" style={{ fontSize: "12px" }}>
                     {project.description}
@@ -105,7 +105,7 @@ const Portfolio = () => {
           {projectList.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                <h3 style={{ flexBasis: "40px", color: "indigo" }}>{project.title}</h3>
               </a>
               <p className="small">{project.description}</p>
             </div>
