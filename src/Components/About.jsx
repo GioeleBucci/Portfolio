@@ -38,7 +38,7 @@ const skillsList = ["Low Level Programming", "Embedded Systems", "Game Developme
  * about you on a professional level.
  */
 const detailOrQuote =
-  "Sono appassionato di programmazione ad ogni livello. Mi piace risolvere problemi e mettermi alla prova.";
+  "Sono appassionato di programmazione in ogni sua forma. Mi piace risolvere problemi e mettermi alla prova.";
 
 const About = () => {
   const isMobile = window.matchMedia("(max-width: 767px)").matches;
@@ -68,7 +68,7 @@ const About = () => {
             style={{
               textAlign: "left",
               columns: 2,
-              fontSize: ".8rem",
+              fontSize: "1rem",
             }}
           >
             {skillsList.map((skill) => (
@@ -80,48 +80,46 @@ const About = () => {
       </section>
     );
   }
-  // THIS SUCK
-  else
-    return (
-      <section className="padding" id="about">
-        <img className="background" src={image} alt={imageAltText} />
-        <div
+  return (
+    <section className="padding" id="about">
+      <img className="background" src={image} alt={imageAltText} />
+      <div
+        style={{
+          backgroundColor: "white",
+          width: "50%",
+          padding: "4rem",
+          margin: "3rem auto",
+          textAlign: "center",
+        }}
+      >
+        <h2>About Me</h2>
+        <p className="large">
+          Studente di Ingegneria e Scienze Informatiche presso l&apos;Università di Bologna.
+          <br></br> Ho lavorato con{" "}
+          <a href={websiteUrl} style={{ color: "purple" }}>
+            RoBee
+          </a>{" "}
+          , il primo robot umanoide cognitivo italiano
+        </p>
+        <hr />
+        <ul
           style={{
-            backgroundColor: "white",
-            width: "50%",
-            padding: "4rem",
-            margin: "3rem auto",
-            textAlign: "center",
+            textAlign: "left",
+            columns: 2,
+            fontSize: "1.25rem",
+            margin: "2rem 3rem",
+            gap: "3rem",
           }}
         >
-          <h2>About Me</h2>
-          <p className="large">
-            Studente di Ingegneria e Scienze Informatiche presso l&apos;Università di Bologna.
-            <br></br> Ho lavorato con{" "}
-            <a href={websiteUrl} style={{ color: "purple" }}>
-              RoBee
-            </a>{" "}
-            , il primo robot umanoide cognitivo italiano
-          </p>
-          <hr />
-          <ul
-            style={{
-              textAlign: "left",
-              columns: 2,
-              fontSize: "1.25rem",
-              margin: "2rem 3rem",
-              gap: "3rem",
-            }}
-          >
-            {skillsList.map((skill) => (
-              <li key={skill}>{skill}</li>
-            ))}
-          </ul>
-          <hr />
-          <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
-        </div>
-      </section>
-    );
+          {skillsList.map((skill) => (
+            <li key={skill}>{skill}</li>
+          ))}
+        </ul>
+        <hr />
+        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+      </div>
+    </section>
+  );
 };
 
 export default About;
