@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://gioelebucci.github.io/codespaces-test",
+  "homepage": "http://GioeleBucci.github.io/Codespaces-Test",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://gioelebucci.github.io/codespaces-test'",
+    "build-gh": "parcel build --public-url 'https://GioeleBucci.github.io/Codespaces-Test'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
