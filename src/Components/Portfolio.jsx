@@ -60,6 +60,36 @@ const projectList = [
 ];
 
 const Portfolio = () => {
+  const isMobile = window.matchMedia("(max-width: 767px)").matches;
+
+  if (isMobile) {
+    return (
+      <section className="padding" id="portfolio">
+        <h3 style={{ textAlign: "center" }}>Portfolio</h3>
+        <div style={{ display: "flex", flexDirection: "row" }}>
+          <div style={{ maxWidth: "40%", alignSelf: "center" }}></div>
+          <div className="container">
+            <div
+              className="container"
+              style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}
+            >
+              {projectList.map((project) => (
+                <div className="project" key={project.title} style={{ maxWidth: "300px" }}>
+                  <a href={project.url} target="_blank" rel="noopener noreferrer">
+                    <h5 style={{ flexBasis: "40px" }}>{project.title}</h5>
+                  </a>
+                  <p className="small" style={{ fontSize: "12px" }}>
+                    {project.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
