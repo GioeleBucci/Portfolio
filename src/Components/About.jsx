@@ -59,7 +59,7 @@ const About = () => {
         <p className="large">
           Studente di Ingegneria e Scienze Informatiche presso l&apos;Università di Bologna.
           <br></br> Ho lavorato con{" "}
-          <a href={websiteUrl} style={{ color: "#4E567E" }}>
+          <a href={websiteUrl} style={{ color: "purple" }}>
             RoBee
           </a>{" "}
           , il primo robot umanoide cognitivo italiano
