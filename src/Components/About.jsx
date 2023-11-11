@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -23,24 +23,15 @@ const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description =
-  "Studente di Ingegneria e Scienze Informatiche presso l'Università di Bologna";
 
+const description =
+  "Studente di Ingegneria e Scienze Informatiche presso l'Università di Bologna. Ho lavorato con RoBee, il primo robot umanoide cognitivo italiano.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 
-const skillsList = [
-  /*
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",*/
-];
-
+const skillsList = ["Low Level Programming", "Embedded Systems", "Game Development", "And more..."];
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -48,7 +39,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "Sono appassionato di programmazione, in particolare mi piace risolvere problemi software e mettermi alla prova.";
+  "Sono appassionato di programmazione ad ogni livello. Mi piace risolvere problemi e mettermi alla prova.";
 
 const About = () => {
   return (
@@ -63,7 +54,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>About Me</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
