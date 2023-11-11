@@ -27193,7 +27193,8 @@ const imageAltText = "purple and blue abstract background";
  * about you on a professional level.
  */ const detailOrQuote = "Sono appassionato di programmazione ad ogni livello. Mi piace risolvere problemi e mettermi alla prova.";
 const About = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+    const isMobile = window.matchMedia("(max-width: 767px)").matches;
+    if (isMobile) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
         id: "about",
         children: [
@@ -27203,34 +27204,35 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 46,
-                columnNumber: 7
+                lineNumber: 49,
+                columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     backgroundColor: "white",
-                    width: "90%",
-                    padding: "4rem",
-                    margin: "3rem auto",
-                    textAlign: "center",
-                    maxWidth: "800px"
+                    width: "100%",
+                    textAlign: "center"
                 },
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                         children: "About Me"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
                         lineNumber: 57,
-                        columnNumber: 9
+                        columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "large",
+                        style: {
+                            textAlign: "center",
+                            fontSize: ".8rem",
+                            margin: ".8rem"
+                        },
                         children: [
                             "Studente di Ingegneria e Scienze Informatiche presso l'Universit\xe0 di Bologna.",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/About.jsx",
                                 lineNumber: 60,
-                                columnNumber: 11
+                                columnNumber: 13
                             }, undefined),
                             " Ho lavorato con",
                             " ",
@@ -27243,7 +27245,7 @@ const About = ()=>{
                             }, void 0, false, {
                                 fileName: "src/Components/About.jsx",
                                 lineNumber: 61,
-                                columnNumber: 11
+                                columnNumber: 13
                             }, undefined),
                             " ",
                             ", il primo robot umanoide cognitivo italiano"
@@ -27251,12 +27253,118 @@ const About = ()=>{
                     }, void 0, true, {
                         fileName: "src/Components/About.jsx",
                         lineNumber: 58,
-                        columnNumber: 9
+                        columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
                         lineNumber: 66,
-                        columnNumber: 9
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        style: {
+                            textAlign: "left",
+                            columns: 2,
+                            fontSize: ".8rem"
+                        },
+                        children: skillsList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: skill
+                            }, skill, false, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 75,
+                                columnNumber: 15
+                            }, undefined))
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 67,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        style: {
+                            textAlign: "center",
+                            fontSize: ".8rem",
+                            margin: ".8rem"
+                        },
+                        children: detailOrQuote
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 78,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/About.jsx",
+                lineNumber: 50,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Components/About.jsx",
+        lineNumber: 48,
+        columnNumber: 7
+    }, undefined);
+    else return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "padding",
+        id: "about",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "background",
+                src: (0, _motionBackgroundJpgDefault.default),
+                alt: imageAltText
+            }, void 0, false, {
+                fileName: "src/Components/About.jsx",
+                lineNumber: 87,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    backgroundColor: "white",
+                    width: "50%",
+                    padding: "4rem",
+                    margin: "3rem auto",
+                    textAlign: "center"
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "About Me"
+                    }, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 97,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "large",
+                        children: [
+                            "Studente di Ingegneria e Scienze Informatiche presso l'Universit\xe0 di Bologna.",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 100,
+                                columnNumber: 13
+                            }, undefined),
+                            " Ho lavorato con",
+                            " ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: websiteUrl,
+                                style: {
+                                    color: "purple"
+                                },
+                                children: "RoBee"
+                            }, void 0, false, {
+                                fileName: "src/Components/About.jsx",
+                                lineNumber: 101,
+                                columnNumber: 13
+                            }, undefined),
+                            " ",
+                            ", il primo robot umanoide cognitivo italiano"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 98,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                        fileName: "src/Components/About.jsx",
+                        lineNumber: 106,
+                        columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                         style: {
@@ -27270,18 +27378,18 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 77,
-                                columnNumber: 13
+                                lineNumber: 117,
+                                columnNumber: 15
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 67,
-                        columnNumber: 9
+                        lineNumber: 107,
+                        columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 80,
-                        columnNumber: 9
+                        lineNumber: 120,
+                        columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         style: {
@@ -27290,20 +27398,20 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 81,
-                        columnNumber: 9
+                        lineNumber: 121,
+                        columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 47,
-                columnNumber: 7
+                lineNumber: 88,
+                columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 45,
-        columnNumber: 5
+        lineNumber: 86,
+        columnNumber: 7
     }, undefined);
 };
 _c = About;
@@ -27316,44 +27424,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/motion-background.jpg":"kzNvo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kzNvo":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "motion-background.0a6a8db0.jpg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","../images/motion-background.jpg":"kzNvo"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27503,7 +27574,44 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"7GWgX":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"kzNvo":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "motion-background.0a6a8db0.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"7GWgX":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8b43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28630,7 +28738,7 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  * Home background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  *
@@ -28639,7 +28747,8 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  */ var _womanWithTabletJpg = require("../images/woman-with-tablet.jpg");
 var _womanWithTabletJpgDefault = parcelHelpers.interopDefault(_womanWithTabletJpg);
 const Home = ({ name , title  })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+    const isMobile = window.matchMedia("(max-width: 767px)").matches;
+    if (isMobile) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
         className: "min-height",
         children: [
@@ -28648,11 +28757,70 @@ const Home = ({ name , title  })=>{
                 src: (0, _womanWithTabletJpgDefault.default),
                 alt: "",
                 style: {
-                    maxWidth: "100%"
+                    maxWidth: "100%",
+                    maxHeight: "100%"
                 }
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 27,
+                lineNumber: 30,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    position: "absolute",
+                    top: "2rem",
+                    left: "1rem",
+                    width: "15rem"
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/Components/Home.jsx",
+                        lineNumber: 37,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        style: {
+                            fontWeight: "bold"
+                        },
+                        children: name
+                    }, void 0, false, {
+                        fileName: "src/Components/Home.jsx",
+                        lineNumber: 38,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        style: {
+                            fontWeight: "italic"
+                        },
+                        children: title
+                    }, void 0, false, {
+                        fileName: "src/Components/Home.jsx",
+                        lineNumber: 39,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Home.jsx",
+                lineNumber: 36,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Components/Home.jsx",
+        lineNumber: 29,
+        columnNumber: 7
+    }, undefined);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        id: "home",
+        className: "min-height",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "background",
+                src: (0, _womanWithTabletJpgDefault.default),
+                alt: ""
+            }, void 0, false, {
+                fileName: "src/Components/Home.jsx",
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28667,26 +28835,26 @@ const Home = ({ name , title  })=>{
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 29,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 30,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 28,
+                lineNumber: 47,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Home.jsx",
-        lineNumber: 26,
+        lineNumber: 45,
         columnNumber: 5
     }, undefined);
 };
@@ -28739,7 +28907,10 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ /**
+ */ var _laptopJpg = require("../images/laptop.jpg");
+var _laptopJpgDefault = parcelHelpers.interopDefault(_laptopJpg);
+const imageAltText = "desktop with laptop";
+/**
  * Project list
  *
  * An array of objects that will be used to display for your project
@@ -28757,6 +28928,110 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
     }
 ];
 const Portfolio = ()=>{
+    const isMobile = window.matchMedia("(max-width: 767px)").matches;
+    if (isMobile) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "padding",
+        id: "portfolio",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                style: {
+                    textAlign: "center"
+                },
+                children: "Portfolio"
+            }, void 0, false, {
+                fileName: "src/Components/Portfolio.jsx",
+                lineNumber: 68,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    display: "flex",
+                    flexDirection: "row"
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        style: {
+                            maxWidth: "40%",
+                            alignSelf: "center"
+                        }
+                    }, void 0, false, {
+                        fileName: "src/Components/Portfolio.jsx",
+                        lineNumber: 70,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "container",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "container",
+                            style: {
+                                display: "flex",
+                                flexDirection: "column",
+                                justifyContent: "center"
+                            },
+                            children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "project",
+                                    style: {
+                                        maxWidth: "300px"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: project.url,
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                                                style: {
+                                                    flexBasis: "40px"
+                                                },
+                                                children: project.title
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Portfolio.jsx",
+                                                lineNumber: 79,
+                                                columnNumber: 21
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/Components/Portfolio.jsx",
+                                            lineNumber: 78,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            className: "small",
+                                            style: {
+                                                fontSize: "12px"
+                                            },
+                                            children: project.description
+                                        }, void 0, false, {
+                                            fileName: "src/Components/Portfolio.jsx",
+                                            lineNumber: 81,
+                                            columnNumber: 19
+                                        }, undefined)
+                                    ]
+                                }, project.title, true, {
+                                    fileName: "src/Components/Portfolio.jsx",
+                                    lineNumber: 77,
+                                    columnNumber: 17
+                                }, undefined))
+                        }, void 0, false, {
+                            fileName: "src/Components/Portfolio.jsx",
+                            lineNumber: 72,
+                            columnNumber: 13
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/Components/Portfolio.jsx",
+                        lineNumber: 71,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Portfolio.jsx",
+                lineNumber: 69,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Components/Portfolio.jsx",
+        lineNumber: 67,
+        columnNumber: 7
+    }, undefined);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
         id: "portfolio",
@@ -28768,31 +29043,41 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 61,
+                lineNumber: 95,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     display: "flex",
-                    flexDirection: "column",
+                    flexDirection: "row",
                     paddingTop: "3rem"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
-                            maxWidth: "100%",
+                            maxWidth: "40%",
                             alignSelf: "center"
-                        }
+                        },
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: (0, _laptopJpgDefault.default),
+                            style: {
+                                height: "90%",
+                                width: "100%",
+                                objectFit: "cover"
+                            },
+                            alt: imageAltText
+                        }, void 0, false, {
+                            fileName: "src/Components/Portfolio.jsx",
+                            lineNumber: 98,
+                            columnNumber: 11
+                        }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 63,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "container",
-                        style: {
-                            maxWidth: "100%"
-                        },
                         children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "box",
                                 children: [
@@ -28807,12 +29092,12 @@ const Portfolio = ()=>{
                                             children: project.title
                                         }, void 0, false, {
                                             fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 69,
+                                            lineNumber: 108,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 68,
+                                        lineNumber: 107,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28820,46 +29105,30 @@ const Portfolio = ()=>{
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 71,
+                                        lineNumber: 110,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, project.title, true, {
                                 fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 67,
+                                lineNumber: 106,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 65,
+                        lineNumber: 104,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 62,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("style", {
-                children: `
-          @media (min-width: 768px) {
-            div[style*="flex-direction: column"] {
-              flex-direction: row;
-            }
-            div[style*="max-width: 100%"] {
-              max-width: 60%;
-            }
-          }
-        `
-            }, void 0, false, {
-                fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 76,
+                lineNumber: 96,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 60,
+        lineNumber: 94,
         columnNumber: 5
     }, undefined);
 };
@@ -28873,6 +29142,9 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/laptop.jpg":"8jX20"}],"8jX20":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "laptop.03ef91c0.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
 //# sourceMappingURL=index.975ef6c8.js.map
