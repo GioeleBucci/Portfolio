@@ -28759,7 +28759,8 @@ const Home = ({ name , title  })=>{
                 alt: "",
                 style: {
                     maxWidth: "100%",
-                    maxHeight: "100%"
+                    height: "100%",
+                    objectFit: "cover"
                 }
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
@@ -28781,18 +28782,10 @@ const Home = ({ name , title  })=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 38,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                        fileName: "src/Components/Home.jsx",
                         lineNumber: 39,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        style: {
-                            fontSize: "2rem"
-                        },
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
@@ -28801,7 +28794,7 @@ const Home = ({ name , title  })=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         style: {
-                            fontSize: "1.5rem"
+                            fontSize: "1.7rem"
                         },
                         children: title
                     }, void 0, false, {
