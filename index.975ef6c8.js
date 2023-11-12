@@ -28758,9 +28758,10 @@ const Home = ({ name , title  })=>{
                 src: (0, _womanWithTabletJpgDefault.default),
                 alt: "",
                 style: {
-                    maxWidth: "100%",
                     height: "100%",
-                    objectFit: "cover"
+                    maxWidth: "100%",
+                    objectFit: "cover",
+                    opacity: "0.6"
                 }
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
