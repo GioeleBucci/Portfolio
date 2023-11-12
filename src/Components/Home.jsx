@@ -31,7 +31,7 @@ const Home = ({ name, title }) => {
           className="background"
           src={image}
           alt=""
-          style={{ maxWidth: "100%", height: "100%", objectFit: "cover" }}
+          style={{ height: "100%", maxWidth: "100%", objectFit: "cover", opacity: "0.6" }}
         />
         <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
           <br />
@@ -49,7 +49,7 @@ const Home = ({ name, title }) => {
         className="background"
         src={image}
         alt=""
-        style={{ maxWidth: "100%", maxHeight: "100%" }}
+        style={{ maxWidth: "100%", maxHeight: "100%", opacity: "0.6" }}
       />
       <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
         <h1>{name}</h1>
