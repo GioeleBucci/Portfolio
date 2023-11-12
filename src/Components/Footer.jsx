@@ -53,6 +53,7 @@ const Footer = (props) => {
         width: "100vw",
       }}
     >
+      <h2 style={{ color: "white" }}>Contact</h2>
       <div
         style={{
           display: "flex",

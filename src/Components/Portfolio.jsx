@@ -65,7 +65,7 @@ const Portfolio = () => {
   if (isMobile) {
     return (
       <section className="padding" id="portfolio">
-        <h3 style={{ textAlign: "center" }}>Portfolio</h3>
+        <h2 style={{ textAlign: "center" }}>Portfolio</h2>
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div style={{ maxWidth: "40%", alignSelf: "center" }}></div>
           <div className="container">
