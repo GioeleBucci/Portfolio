@@ -31,14 +31,14 @@ const Home = ({ name, title }) => {
           className="background"
           src={image}
           alt=""
-          style={{ maxWidth: "100%", maxHeight: "100%" }}
+          style={{ maxWidth: "100%", height: "100%", objectFit: "cover" }}
         />
         <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
           <br />
+          {/* <br /> */}
           <br />
-          <br />
-          <h1 style={{ fontSize: "2rem" }}>{name}</h1>
-          <h2 style={{ fontSize: "1.5rem" }}>{title}</h2>
+          <h1>{name}</h1>
+          <h2 style={{ fontSize: "1.7rem" }}>{title}</h2>
         </div>
       </section>
     );
