@@ -60,7 +60,7 @@ const About = () => {
             <br></br> Ho lavorato con{" "}
             <a href={websiteUrl} style={{ color: "purple" }}>
               RoBee
-            </a>{" "}
+            </a>
             , il primo robot umanoide cognitivo italiano
           </p>
           <hr />
@@ -75,7 +75,9 @@ const About = () => {
               <li key={skill}>{skill}</li>
             ))}
           </ul>
-          <p style={{ textAlign: "center", fontSize: "1.1rem", margin: ".8rem" }}>{detailOrQuote}</p>
+          <p style={{ textAlign: "center", fontSize: "1.1rem", margin: ".8rem" }}>
+            {detailOrQuote}
+          </p>
         </div>
       </section>
     );
@@ -98,7 +100,7 @@ const About = () => {
           <br></br> Ho lavorato con{" "}
           <a href={websiteUrl} style={{ color: "purple" }}>
             RoBee
-          </a>{" "}
+          </a>
           , il primo robot umanoide cognitivo italiano
         </p>
         <hr />
@@ -116,7 +118,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ padding: "1rem 3rem 0", fontSize: "1.2rem" }}>{detailOrQuote}</p>
       </div>
     </section>
   );
