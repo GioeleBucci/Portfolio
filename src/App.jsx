@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Gioele Bucci",
-  title: "Ingegnere informatico (work in progress)",
+  title: "Ingegnere Informatico (work in progress)",
   email: "gioelebucci@gmail.com",
   gitHub: "GioeleBucci",
 };

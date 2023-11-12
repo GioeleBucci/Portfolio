@@ -19,7 +19,7 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/woman-with-tablet.jpg";
+import image from "../images/homePicture.jpeg";
 
 const Home = ({ name, title }) => {
   const isMobile = window.matchMedia("(max-width: 767px)").matches;
@@ -33,12 +33,17 @@ const Home = ({ name, title }) => {
           alt=""
           style={{ height: "100%", maxWidth: "100%", objectFit: "cover", opacity: "0.6" }}
         />
-        <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
-          <br />
-          {/* <br /> */}
-          <br />
-          <h1>{name}</h1>
-          <h2 style={{ fontSize: "1.7rem" }}>{title}</h2>
+        <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "12rem" }}>
+          <div
+            style={{
+              backgroundColor: "rgba(255, 255, 255, 0.7)",
+              opacity: "0.9",
+              width: "15rem",
+            }}
+          >
+            <h1 style={{ fontSize: "5rem" }}>{name}</h1>
+            <h2 style={{ fontSize: "1.7rem" }}>{title}</h2>
+          </div>
         </div>
       </section>
     );
@@ -51,9 +56,17 @@ const Home = ({ name, title }) => {
         alt=""
         style={{ maxWidth: "100%", maxHeight: "100%", opacity: "0.6" }}
       />
-      <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
-        <h1>{name}</h1>
-        <h2>{title}</h2>
+      <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "25rem" }}>
+        <div
+          style={{
+            backgroundColor: "rgba(255, 255, 255, 0.7)",
+            opacity: "0.9",
+            width: "25rem",
+          }}
+        >
+          <h1>{name}</h1>
+          <h2>{title}</h2>
+        </div>
       </div>
     </section>
   );
