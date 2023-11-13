@@ -1,3 +1,3 @@
 Source code for my curriculum/portfolio website. 
 
-This website is based on the following template: education/codespaces-project-template-js
+The website is based on [this template](education/codespaces-project-template-js)
