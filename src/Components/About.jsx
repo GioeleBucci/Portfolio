@@ -118,7 +118,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0", fontSize: "1.2rem" }}>{detailOrQuote}</p>
+        <p style={{ padding: "1rem 3rem 0", fontSize: "1.3rem" }}>{detailOrQuote}</p>
       </div>
     </section>
   );
