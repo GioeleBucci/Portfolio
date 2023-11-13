@@ -27392,7 +27392,7 @@ const About = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         style: {
                             padding: "1rem 3rem 0",
-                            fontSize: "1.2rem"
+                            fontSize: "1.3rem"
                         },
                         children: detailOrQuote
                     }, void 0, false, {
