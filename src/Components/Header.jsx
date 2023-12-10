@@ -10,11 +10,15 @@ const Header = () => {
   return (
     <div
       style={{
+        background: "rgba(255, 255, 255, 0.2)",
+        borderRadius: "16px",
+        boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
+        backdropFilter: "blur(13px)",
+        WebkitBackdropFilter: "blur(13px)",
         position: "fixed",
         display: "flex",
         justifyContent: "center",
         gap: "2rem",
-        background: "rgba(255,255,255,0.75)",
         padding: "1rem",
         top: 0,
         width: "100%",
