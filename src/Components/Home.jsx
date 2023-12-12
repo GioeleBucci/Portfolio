@@ -42,7 +42,7 @@ const Home = ({ name, title }) => {
             }}
           >
             <h1 style={{ fontSize: "5rem" }}>{name}</h1>
-            <h2 style={{ fontSize: "1.7rem" }}>{title}</h2>
+            <h2 style={{ fontSize: "1.6rem" }}>{title}</h2>
           </div>
         </div>
       </section>
