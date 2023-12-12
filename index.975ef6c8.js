@@ -27228,7 +27228,7 @@ const About = ()=>{
                             margin: ".8rem"
                         },
                         children: [
-                            "Studente di Ingegneria e Scienze Informatiche presso l'Universit\xe0 di Bologna.",
+                            "Studente di Ingegneria e Scienze Informatiche presso UniBo (Campus di Cesena).",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/About.jsx",
                                 lineNumber: 60,
@@ -27333,7 +27333,7 @@ const About = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         className: "large",
                         children: [
-                            "Studente di Ingegneria e Scienze Informatiche presso l'Universit\xe0 di Bologna.",
+                            "Studente di Ingegneria e Scienze Informatiche presso UniBo (Campus di Cesena).",
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                 fileName: "src/Components/About.jsx",
                                 lineNumber: 100,
