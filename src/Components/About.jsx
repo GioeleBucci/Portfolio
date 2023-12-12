@@ -56,7 +56,7 @@ const About = () => {
         >
           <h2>About Me</h2>
           <p style={{ textAlign: "center", fontSize: "1.2rem", margin: ".8rem" }}>
-            Studente di Ingegneria e Scienze Informatiche presso l&apos;Università di Bologna.
+            Studente di Ingegneria e Scienze Informatiche presso UniBo (Campus di Cesena).
             <br></br> Ho lavorato con{" "}
             <a href={websiteUrl} style={{ color: "purple" }}>
               RoBee
@@ -96,7 +96,7 @@ const About = () => {
       >
         <h2>About Me</h2>
         <p className="large">
-          Studente di Ingegneria e Scienze Informatiche presso l&apos;Università di Bologna.
+          Studente di Ingegneria e Scienze Informatiche presso UniBo (Campus di Cesena).
           <br></br> Ho lavorato con{" "}
           <a href={websiteUrl} style={{ color: "purple" }}>
             RoBee
