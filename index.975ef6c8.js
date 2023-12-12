@@ -28798,7 +28798,7 @@ const Home = ({ name , title  })=>{
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                             style: {
-                                fontSize: "1.7rem"
+                                fontSize: "1.6rem"
                             },
                             children: title
                         }, void 0, false, {
