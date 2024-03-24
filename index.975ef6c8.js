@@ -28956,9 +28956,9 @@ const imageAltText = "desktop with laptop";
         url: "https://github.com/GioeleBucci/Portfolio"
     },
     {
-        title: "TBOOOP! Un demake di The Binding of Isaac",
+        title: 'TBOOOP! Un demake di "The Binding of Isaac"',
         description: "Un videogioco realizzato per il corso di programmazione ad oggetti (A.A. 2023/24).",
-        url: "https://github.com/GioeleBucci/Portfolio"
+        url: "https://github.com/GioeleBucci/OOP23-TBOOOP"
     }, 
 ];
 const Portfolio = ()=>{
