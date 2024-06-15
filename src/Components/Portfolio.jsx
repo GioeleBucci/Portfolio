@@ -53,7 +53,7 @@ const projectList = [
     title: 'RisiKoDB: un gestionale per partite a "RisiKo!"',
     description:
       'Un\'applicazione realizzata per il corso di "Basi di Dati" utilizzando Unity e il framework .NET (A.A. 2023/24).',
-    url: "https://github.com/GioeleBucci/OOP23-TBOOOP",
+    url: "https://github.com/GioeleBucci/Risiko-DB",
   },
 ];
 
