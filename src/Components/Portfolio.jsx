@@ -46,7 +46,13 @@ const projectList = [
   {
     title: 'TBOOOP! Un demake di "The Binding of Isaac"',
     description:
-      "Un videogioco realizzato per il corso di programmazione ad oggetti (A.A. 2023/24).",
+      'Un videogioco realizzato per il corso di "Programmazione ad Oggetti" (A.A. 2023/24).',
+    url: "https://github.com/GioeleBucci/OOP23-TBOOOP",
+  },
+  {
+    title: 'RisiKoDB: un gestionale per partite a "RisiKo!"',
+    description:
+      'Un\'applicazione realizzata per il corso di "Basi di Dati" utilizzando Unity e il framework .NET (A.A. 2023/24).',
     url: "https://github.com/GioeleBucci/OOP23-TBOOOP",
   },
 ];
