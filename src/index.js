@@ -8,7 +8,7 @@ import { I18nextProvider } from "react-i18next"; // Import the I18nextProvider c
 
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: "en",
+  lng: "it",
   resources: {
     en: {
       global: global_en,
