@@ -1,9 +1,28 @@
 {
   "infos": {
-    "title":  "Ingegnere Informatico (work in progress)"
+    "title": "Ingegnere Informatico (work in progress)"
   },
   "about": {
     "experience": "Studente di Ingegneria e Scienze Informatiche presso UniBo (Campus di Cesena).<br></br>Ho lavorato con <a href=\"https://oversonicrobotics.com/projects/robee/\" style={{ color: \"purple\" }}>RoBee</a>, il primo robot umanoide cognitivo italiano",
     "quote": "Sono appassionato di programmazione in ogni sua forma. Mi piace risolvere problemi e mettermi alla prova."
+  },
+
+  "portfolio": {
+    "github": {
+      "title": "Profilo GitHub",
+      "description": "GitHub è una piattaforma collaborativa che ospita software open-source. Questo è il mio profilo, contenente i principali progetti a cui ho lavorato."
+    },
+    "website": {
+      "title": "Codice di questo sito",
+      "description": "Questa pagina è stata realizzata sulla base di un template usando JavaScript + React, un framework per la creazione di interfacce utente."
+    },
+    "tbooop": {
+      "title": "TBOOOP! Un demake di \"The Binding of Isaac\"",
+      "description": "Un videogioco realizzato per il corso di \"Programmazione ad Oggetti\" (A.A. 2023/24)."
+    },
+    "risikodb": {
+      "title": "RisiKoDB: un gestionale per partite a \"RisiKo!\"",
+      "description": "Un'applicazione realizzata per il corso di \"Basi di Dati\" utilizzando Unity e il framework .NET (A.A. 2023/24)."
+    }
   }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import global_en from "./translations/en/global.json";
-import global_ita from "./translations/it/global.json";
+import global_it from "./translations/it/global.json";
 import i18next from "i18next";
 import { I18nextProvider } from "react-i18next"; // Import the I18nextProvider component
 
@@ -14,7 +14,7 @@ i18next.init({
       global: global_en,
     },
     it: {
-      global: global_ita,
+      global: global_it,
     },
   },
 });

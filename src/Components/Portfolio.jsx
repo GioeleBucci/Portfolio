@@ -1,64 +1,35 @@
-/**
- * Portfolio component
- *
- * Highlights some of  your creations. These can be designs, websites,
- * open source contributions, articles you've written and more.
- *
- * This is a great area for you to to continually add to and refine
- * as you continue to learn and create.
- */
-
 import React from "react";
 
-/**
- * Desk image
- *
- * Below is a sample desk image. Feel free to update this to an image of your choice,
- * updating below imageAltText to string that represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
- */
-
 import image from "../images/laptop.jpg";
-
+import { useTranslation } from "react-i18next";
 const imageAltText = "desktop with laptop";
-
-/**
- * Project list
- *
- * An array of objects that will be used to display for your project
- * links section. Below is a sample, update to reflect links you'd like to highlight.
- */
-const projectList = [
-  {
-    title: "Il mio GitHub",
-    description:
-      "GitHub è una piattaforma collaborativa che ospita software open-source. Questo è il mio profilo, contenente i principali progetti a cui ho lavorato.",
-    url: "https://github.com/GioeleBucci",
-  },
-  {
-    title: "Sorgente di questo sito",
-    description:
-      "Questa pagina è stata realizzata con JavaScript + React, un framework per la creazione di interfacce utente.",
-    url: "https://github.com/GioeleBucci/Portfolio",
-  },
-  {
-    title: 'TBOOOP! Un demake di "The Binding of Isaac"',
-    description:
-      'Un videogioco realizzato per il corso di "Programmazione ad Oggetti" (A.A. 2023/24).',
-    url: "https://github.com/GioeleBucci/OOP23-TBOOOP",
-  },
-  {
-    title: 'RisiKoDB: un gestionale per partite a "RisiKo!"',
-    description:
-      'Un\'applicazione realizzata per il corso di "Basi di Dati" utilizzando Unity e il framework .NET (A.A. 2023/24).',
-    url: "https://github.com/GioeleBucci/Risiko-DB",
-  },
-];
 
 const Portfolio = () => {
   const isMobile = window.matchMedia("(max-width: 767px)").matches;
+  const [t, i18n] = useTranslation("global");
+
+  const projectList = [
+    {
+      title: t("portfolio.github.title"),
+      description: t("portfolio.github.description"),
+      url: "https://github.com/GioeleBucci",
+    },
+    {
+      title: t("portfolio.website.title"),
+      description: t("portfolio.website.description"),
+      url: "https://github.com/GioeleBucci/Portfolio",
+    },
+    {
+      title: t("portfolio.tbooop.title"),
+      description: t("portfolio.tbooop.description"),
+      url: "https://github.com/GioeleBucci/OOP23-TBOOOP",
+    },
+    {
+      title: t("portfolio.risikodb.title"),
+      description: t("portfolio.risikodb.description"),
+      url: "https://github.com/GioeleBucci/Risiko-DB",
+    },
+  ];
 
   if (isMobile) {
     return (

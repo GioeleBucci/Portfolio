@@ -2,9 +2,28 @@
   "infos": {
     "title": "Software Engineer (work in progress)"
   },
+
   "about": {
     "experience": "Engineering and Computer Science student at UniBo (Cesena Campus).<br></br>I worked with <a href=\"https://oversonicrobotics.com/projects/robee/\" style={{ color: \"purple\" }}>RoBee</a>, the first italian cognitive humanoid robot",
     "quote": "I am passionate about programming in all its forms. I enjoy solving problems and challenging myself."
+  },
+
+  "portfolio": {
+    "github": {
+      "title": "GitHub Profile",
+      "description": "GitHub is a collaborative platform that hosts open-source software. This is my profile, containing the main projects I have worked on."
+    },
+    "website": {
+      "title": "Code for this website",
+      "description": "This page was created based on a template using JavaScript + React, a framework for building user interfaces."
+    },
+    "tbooop": {
+      "title": "TBOOOP! A demake of \"The Binding of Isaac\"",
+      "description": "A video game created for the \"Object-Oriented Programming\" course (Academic Year 2023/24)."
+    },
+    "risikodb": {
+      "title": "RisiKoDB: a management system for \"RisiKo!\" games",
+      "description": "An application created for the \"Database\" course using Unity and the .NET framework (Academic Year 2023/24)."
+    }
   }
 }
-
