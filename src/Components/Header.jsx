@@ -15,6 +15,8 @@ const Header = () => {
     changeLanguage(i18n.language === "en" ? "it" : "en");
   };
 
+  const flagSrc = i18n.language === "en" ? itFlag : enFlag;
+
   return (
     <div
       style={{
@@ -47,12 +49,13 @@ const Header = () => {
         onClick={handleFlagClick}
       >
         <img
-          src={enFlag}
+          src={flagSrc}
           alt="Flag"
           style={{
             width: "auto",
-            height: "24px",
+            height: "22px",
             alignSelf: "right",
+            boxShadow: "0 1px 10px rgba(0, 0, 0, 0.3)",
           }}
         />
       </button>
