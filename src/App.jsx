@@ -12,17 +12,10 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 
+import { useTranslation } from "react-i18next";
+
 import "./styles.css";
 
-/**
- * This object represents your information. The project is set so that you
- * only need to update these here, and values are passed a properties to the
- * components that need that information.
- *
- * Update the values below with your information.
- *
- * If you don't have one of the social sites listed, leave it as an empty string.
- */
 const siteProps = {
   name: "Gioele Bucci",
   title: "Ingegnere Informatico (work in progress)",
@@ -34,10 +27,12 @@ const primaryColor = "#4E567E";
 const secondaryColor = "#27b87b";
 
 const App = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div id="main">
       <Header />
-      <Home name={siteProps.name} title={siteProps.title} />
+      <Home name={siteProps.name} title={t("header.message")} />
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
