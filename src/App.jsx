@@ -16,15 +16,13 @@ import { useTranslation } from "react-i18next";
 
 import "./styles.css";
 
-const siteProps = {
+const infos = {
   name: "Gioele Bucci",
-  title: "Ingegnere Informatico (work in progress)",
   email: "gioelebucci@gmail.com",
   gitHub: "GioeleBucci",
 };
 
 const primaryColor = "#4E567E";
-const secondaryColor = "#27b87b";
 
 const App = () => {
   const [t, i18n] = useTranslation("global");
@@ -32,10 +30,10 @@ const App = () => {
   return (
     <div id="main">
       <Header />
-      <Home name={siteProps.name} title={t("header.message")} />
+      <Home name={infos.name} title={t("infos.title")} />
       <About />
       <Portfolio />
-      <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
+      <Footer {...infos} primaryColor={primaryColor} />
     </div>
   );
 };

@@ -1,5 +1,9 @@
 {
-  "header": {
-    "message": "italiano"
+  "infos": {
+    "title":  "Ingegnere Informatico (work in progress)"
+  },
+  "about": {
+    "experience": "Studente di Ingegneria e Scienze Informatiche presso UniBo (Campus di Cesena).<br></br>Ho lavorato con <a href=\"https://oversonicrobotics.com/projects/robee/\" style={{ color: \"purple\" }}>RoBee</a>, il primo robot umanoide cognitivo italiano",
+    "quote": "Sono appassionato di programmazione in ogni sua forma. Mi piace risolvere problemi e mettermi alla prova."
   }
 }

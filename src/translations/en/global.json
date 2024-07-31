@@ -1,5 +1,10 @@
 {
-  "header": {
-    "message": "english"
+  "infos": {
+    "title": "Software Engineer (work in progress)"
+  },
+  "about": {
+    "experience": "Engineering and Computer Science student at UniBo (Cesena Campus).<br></br>I worked with <a href=\"https://oversonicrobotics.com/projects/robee/\" style={{ color: \"purple\" }}>RoBee</a>, the first italian cognitive humanoid robot",
+    "quote": "I am passionate about programming in all its forms. I enjoy solving problems and challenging myself."
   }
 }
+

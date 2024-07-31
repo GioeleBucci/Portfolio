@@ -1,40 +1,13 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
-/**
- * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
- */
 import image from "../images/motion-background.jpg";
-
 const imageAltText = "purple and blue abstract background";
-
-/**
- * description is in the html.
- */
-const websiteUrl = "https://oversonicrobotics.com/projects/robee/";
-
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */
 
 const skillsList = ["Low Level Programming", "Embedded Systems", "Game Development", "And more..."];
 
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */
-const detailOrQuote =
-  "Sono appassionato di programmazione in ogni sua forma. Mi piace risolvere problemi e mettermi alla prova.";
-
 const About = () => {
+  const [t, i18n] = useTranslation("global");
   const isMobile = window.matchMedia("(max-width: 767px)").matches;
 
   if (isMobile) {
@@ -48,15 +21,11 @@ const About = () => {
             textAlign: "center",
           }}
         >
-          <h2>About Me</h2>
-          <p style={{ textAlign: "center", fontSize: "1.2rem", margin: ".8rem" }}>
-            Studente di Ingegneria e Scienze Informatiche presso UniBo (Campus di Cesena).
-            <br></br> Ho lavorato con{" "}
-            <a href={websiteUrl} style={{ color: "purple" }}>
-              RoBee
-            </a>
-            , il primo robot umanoide cognitivo italiano
-          </p>
+          <h2>About</h2>
+          <p
+            dangerouslySetInnerHTML={{ __html: t("about.experience") }}
+            style={{ textAlign: "center", fontSize: "1.2rem", margin: ".8rem" }}
+          ></p>
           <hr />
           <ul
             style={{
@@ -70,7 +39,7 @@ const About = () => {
             ))}
           </ul>
           <p style={{ textAlign: "center", fontSize: "1.1rem", margin: ".8rem" }}>
-            {detailOrQuote}
+            {t("about.quote")}
           </p>
         </div>
       </section>
@@ -88,15 +57,8 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Me</h2>
-        <p className="large">
-          Studente di Ingegneria e Scienze Informatiche presso UniBo (Campus di Cesena).
-          <br></br> Ho lavorato con{" "}
-          <a href={websiteUrl} style={{ color: "purple" }}>
-            RoBee
-          </a>
-          , il primo robot umanoide cognitivo italiano
-        </p>
+        <h2>About</h2>
+        <p className="large" dangerouslySetInnerHTML={{ __html: t("about.experience") }}></p>
         <hr />
         <ul
           style={{
@@ -112,7 +74,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0", fontSize: "1.3rem" }}>{detailOrQuote}</p>
+        <p style={{ padding: "1rem 3rem 0", fontSize: "1.3rem" }}>{t("about.quote")}</p>
       </div>
     </section>
   );
