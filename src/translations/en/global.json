@@ -19,11 +19,11 @@
     },
     "tbooop": {
       "title": "TBOOOP! A demake of \"The Binding of Isaac\"",
-      "description": "A video game created for the \"Object-Oriented Programming\" course (Academic Year 2023/24)."
+      "description": "A video game created for the \"Object-Oriented Programming\" course (A.Y 2023/24)."
     },
     "risikodb": {
-      "title": "RisiKoDB: a management system for \"RisiKo!\" games",
-      "description": "An application created for the \"Database\" course using Unity and the .NET framework (Academic Year 2023/24)."
+      "title": "RisiKoDB: a management system for \"Risk!\" games",
+      "description": "An application created for the \"Databases\" course using Unity and the .NET framework (A.Y. 2023/24)."
     }
   }
 }
