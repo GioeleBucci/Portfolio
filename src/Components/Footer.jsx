@@ -115,7 +115,7 @@ const Footer = (props) => {
         )}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
-        Made with ❤️ by {name}
+        Made with ❤️
       </p>
     </div>
   );
