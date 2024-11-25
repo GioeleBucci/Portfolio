@@ -18,7 +18,7 @@ import "./styles.css";
 
 const infos = {
   name: "Gioele Bucci",
-  email: "gioelebucci@gmail.com",
+  email: "gioele.bucci@studio.unibo.it",
   gitHub: "GioeleBucci",
 };
 
