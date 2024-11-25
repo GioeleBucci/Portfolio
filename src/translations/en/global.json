@@ -4,11 +4,13 @@
   },
 
   "about": {
+    "header": "About me",
     "experience": "Engineering and Computer Sciences student at UniBo (Cesena Campus).<br>Participant in the Erasmus+ program in 2024 at <a href=\"https://www.ntnu.edu/\" style=\"color: purple;\">NTNU</a> (Norwegian University of Science and Technology)<br/>I worked with <a href=\"https://oversonicrobotics.com/projects/robee/\" style=\"color: purple;\">RoBee</a>, the first Italian cognitive humanoid robot.",
     "quote": "I am passionate about programming in all its forms. I enjoy solving problems and challenging myself."
   },
 
   "portfolio": {
+    "header": "Portfolio",
     "github": {
       "title": "GitHub Profile",
       "description": "GitHub is a collaborative platform that hosts open-source software. This is my profile, containing the main projects I have worked on."
@@ -25,5 +27,9 @@
       "title": "RisiKoDB: a management system for \"Risk!\" games",
       "description": "An application created for the \"Databases\" course using Unity and the .NET framework (A.Y. 2023/24)."
     }
+  },
+
+  "contact": {
+    "header": "Contacts"
   }
 }

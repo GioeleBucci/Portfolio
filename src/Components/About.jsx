@@ -21,7 +21,7 @@ const About = () => {
             textAlign: "center",
           }}
         >
-          <h2>About</h2>
+          <h2>{t("about.header")}</h2>
           <p
             dangerouslySetInnerHTML={{ __html: t("about.experience") }}
             style={{ textAlign: "center", fontSize: "1.2rem", margin: ".8rem" }}
@@ -57,7 +57,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About</h2>
+        <h2>{t("about.header")}</h2>
         <p className="large" dangerouslySetInnerHTML={{ __html: t("about.experience") }}></p>
         <hr />
         <ul

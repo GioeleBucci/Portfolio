@@ -18,6 +18,7 @@ import linkedInIcon from "../images/socials/linkedin.svg";
 import mediumIcon from "../images/socials/medium.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
+import { useTranslation } from "react-i18next";
 
 /**
  * 💡 Learning resources
@@ -40,6 +41,8 @@ const Footer = (props) => {
     youTube,
   } = props;
 
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div
       id="footer"
@@ -53,7 +56,7 @@ const Footer = (props) => {
         width: "100vw",
       }}
     >
-      <h2 style={{ color: "white" }}>Contact</h2>
+      <h2 style={{ color: "white" }}>{t("contact.header")}</h2>
       <div
         style={{
           display: "flex",

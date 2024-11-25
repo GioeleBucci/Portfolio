@@ -36,9 +36,9 @@ const Header = () => {
       }}
     >
       {/* <a href="#home">Home</a> */}
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#footer">Contact</a>
+      <a href="#about">{t("about.header")}</a>
+      <a href="#portfolio">{t("portfolio.header")}</a>
+      <a href="#footer">{t("contact.header")}</a>
       <button
         style={{
           background: "none",
