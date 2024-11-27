@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import image from "../images/motion-background.jpg";
 const imageAltText = "purple and blue abstract background";
 
-const skillsList = ["Low Level Programming", "Embedded Systems", "Game Development", "And more..."];
+const skillsList = ["Low Level Programming", "Software Design", "Simulation/Game Development", "And more..."];
 
 const About = () => {
   const [t, i18n] = useTranslation("global");
