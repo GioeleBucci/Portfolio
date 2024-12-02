@@ -10,9 +10,9 @@ const Portfolio = () => {
 
   const projectList = [
     {
-      title: t("portfolio.github.title"),
-      description: t("portfolio.github.description"),
-      url: "https://github.com/GioeleBucci",
+      title: t("portfolio.fintech.title"),
+      description: t("portfolio.fintech.description"),
+      url: "https://github.com/GioeleBucci/RevolutApp",
     },
     {
       title: t("portfolio.website.title"),
@@ -31,10 +31,17 @@ const Portfolio = () => {
     },
   ];
 
+  const additionalContent = (
+    <div style={{ textAlign: "center", width: "80%", margin: "0 auto" }}>
+      <p dangerouslySetInnerHTML={{ __html: t("portfolio.paragraph") }}></p>
+    </div>
+  );
+
   if (isMobile) {
     return (
       <section className="padding" id="portfolio">
         <h2 style={{ textAlign: "center" }}>{t("portfolio.header")}</h2>
+        {additionalContent}
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div style={{ maxWidth: "40%", alignSelf: "center" }}></div>
           <div className="container">
@@ -68,7 +75,8 @@ const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>{t("portfolio.header")}</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      {additionalContent}
+      <div style={{ display: "flex", flexDirection: "row", paddingTop: "1rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}

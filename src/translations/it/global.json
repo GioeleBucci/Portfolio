@@ -10,9 +10,10 @@
 
   "portfolio": {
     "header": "Progetti",
-    "github": {
-      "title": "Profilo GitHub",
-      "description": "GitHub è una piattaforma collaborativa che ospita software open-source. Questo è il mio profilo, contenente i principali progetti a cui ho lavorato."
+    "paragraph": "La maggior parte dei progetti a cui ho lavorato, sia accademici che personali, sono pubblicamente disponibili e consultabili sul mio <a href=\"https://github.com/GioeleBucci\" style=\"color: purple;\">profilo GitHub</a>.",
+    "fintech": {
+      "title": "App Fintech",
+      "description": "Un'applicazione cross-platform ispirata a Revolut, realizzata con React Native per il corso di \"Sviluppo di Applicazioni Cross-Platform per Dispositivi Mobili\" presso NTNU (A.A. 2024/25)."
     },
     "website": {
       "title": "Codice di questo sito",
@@ -28,7 +29,7 @@
     }
   },
 
-  "contact":{
+  "contact": {
     "header": "Contatti"
   }
 }

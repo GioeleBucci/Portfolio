@@ -11,9 +11,10 @@
 
   "portfolio": {
     "header": "Portfolio",
-    "github": {
-      "title": "GitHub Profile",
-      "description": "GitHub is a collaborative platform that hosts open-source software. This is my profile, containing the main projects I have worked on."
+    "paragraph": "Most of the projects I have worked on, both academic and personal, are publicly available on my <a href=\"https://github.com/GioeleBucci\" style=\"color: purple;\">GitHub profile</a>.",
+    "fintech": {
+      "title": "Fintech App",
+      "description": "A cross-platform Revolut-like app built with React Native for the \"Cross-Platform Applications Development for Mobile Devices\" course at NTNU (A.Y. 2024/25)."
     },
     "website": {
       "title": "Code for this website",
