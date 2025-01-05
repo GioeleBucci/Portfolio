@@ -1,1 +1,0 @@
-{"mappings":"AACA;;;;AAIA;;;;AAIA","sources":["src/Components/Home.css"],"sourcesContent":["/* Home.css */\n#home.dark-mode {\n  background-color: #333;\n}\n\n#home.dark-mode .background {\n  opacity: 0.4;\n}\n\n#home.dark-mode h1,\n#home.dark-mode h2 {\n  color: #fff;\n}"],"names":[],"version":3,"file":"index.2212206d.css.map","sourceRoot":"/__parcel_source_root/"}
