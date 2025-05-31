@@ -27371,7 +27371,7 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 16,
+                lineNumber: 21,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27385,7 +27385,7 @@ const About = ()=>{
                         children: t("about.header")
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 24,
+                        lineNumber: 29,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27399,12 +27399,12 @@ const About = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 25,
+                        lineNumber: 30,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 29,
+                        lineNumber: 34,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27417,12 +27417,12 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 38,
+                                lineNumber: 43,
                                 columnNumber: 15
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 30,
+                        lineNumber: 35,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27434,19 +27434,19 @@ const About = ()=>{
                         children: t("about.quote")
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 41,
+                        lineNumber: 46,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 17,
+                lineNumber: 22,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 15,
+        lineNumber: 20,
         columnNumber: 7
     }, undefined);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -27459,7 +27459,7 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 50,
+                lineNumber: 55,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27475,7 +27475,7 @@ const About = ()=>{
                         children: t("about.header")
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 60,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27485,12 +27485,12 @@ const About = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 61,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 62,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27505,17 +27505,17 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 73,
+                                lineNumber: 78,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 63,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 76,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27526,19 +27526,19 @@ const About = ()=>{
                         children: t("about.quote")
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 77,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 51,
+                lineNumber: 56,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 49,
+        lineNumber: 54,
         columnNumber: 5
     }, undefined);
 };
@@ -30259,10 +30259,10 @@ $RefreshReg$(_c, "Portfolio");
 module.exports = require("27bf6cd73f0b521b").getBundleURL('bLxZJ') + "laptop.03ef91c0.jpg" + "?" + Date.now();
 
 },{"27bf6cd73f0b521b":"lgJ39"}],"lW6qc":[function() {},{}],"gZttT":[function(require,module,exports,__globalThis) {
-module.exports = JSON.parse("{\"infos\":{\"title\":\"Software Engineer (work in progress)\"},\"about\":{\"header\":\"About me\",\"experience\":\"Engineering and Computer Sciences student at UniBo (Cesena Campus).<br>Participant in the Erasmus+ program in 2024 at <a href=\\\"https://www.ntnu.edu/\\\" style=\\\"color: purple;\\\">NTNU</a> (Norwegian University of Science and Technology)<br/>I worked with <a href=\\\"https://oversonicrobotics.com/projects/robee/\\\" style=\\\"color: purple;\\\">RoBee</a>, the first Italian cognitive humanoid robot.<br/> You can download my CV <a href=\\\"https://drive.google.com/file/d/1kbKoy69hDHQ6V8Z5dRuYhyRV3BSKbPYr/view?usp=sharing\\\" style=\\\"color: purple;\\\">here</a>.\",\"quote\":\"I am passionate about programming in all its forms. I enjoy solving problems and challenging myself.\"},\"portfolio\":{\"header\":\"Portfolio\",\"paragraph\":\"Most of the projects I have worked on, both academic and personal, are publicly available on my <a href=\\\"https://github.com/GioeleBucci\\\" style=\\\"color: purple;\\\">GitHub profile</a>.\",\"fintech\":{\"title\":\"Fintech App\",\"description\":\"A cross-platform Revolut-like app built with React Native for the \\\"Cross-Platform Applications Development for Mobile Devices\\\" course at NTNU (A.Y. 2024/25).\"},\"website\":{\"title\":\"Code for this website\",\"description\":\"This page was created based on a template using JavaScript + React, a framework for building user interfaces.\"},\"tbooop\":{\"title\":\"TBOOOP! A demake of \\\"The Binding of Isaac\\\"\",\"description\":\"A video game created for the \\\"Object-Oriented Programming\\\" course (A.Y 2023/24).\"},\"risikodb\":{\"title\":\"RisiKoDB: a management system for \\\"Risk!\\\" games\",\"description\":\"An application created for the \\\"Databases\\\" course using Unity and the .NET framework (A.Y. 2023/24).\"}},\"contact\":{\"header\":\"Contacts\"}}");
+module.exports = JSON.parse("{\"infos\":{\"title\":\"Software Engineer (work in progress)\"},\"about\":{\"header\":\"About me\",\"experience\":\"Engineering and Computer Sciences student at UniBo (Cesena Campus).<br>Participant in the Erasmus+ program in 2024 at <a href=\\\"https://www.ntnu.edu/\\\" style=\\\"color: purple;\\\">NTNU</a> (Norwegian University of Science and Technology)<br/>I worked with <a href=\\\"https://oversonicrobotics.com/projects/robee/\\\" style=\\\"color: purple;\\\">RoBee</a>, the first Italian cognitive humanoid robot.<br/> You can download my CV <a href=\\\"https://docs.google.com/document/d/e/2PACX-1vQAF7jkPhgodXBDe4SzG3pIk_ESIAErmmRg5Zy5C0tcbxViMIPMYtloZNZ5ab_r9psQ_0Zu10e4bRgh/pub\\\" style=\\\"color: purple;\\\">here</a>.\",\"quote\":\"I am passionate about programming in all its forms. I enjoy solving problems and challenging myself.\"},\"portfolio\":{\"header\":\"Portfolio\",\"paragraph\":\"Most of the projects I have worked on, both academic and personal, are publicly available on my <a href=\\\"https://github.com/GioeleBucci\\\" style=\\\"color: purple;\\\">GitHub profile</a>.\",\"fintech\":{\"title\":\"Fintech App\",\"description\":\"A cross-platform Revolut-like app built with React Native for the \\\"Cross-Platform Applications Development for Mobile Devices\\\" course at NTNU (A.Y. 2024/25).\"},\"website\":{\"title\":\"Code for this website\",\"description\":\"This page was created based on a template using JavaScript + React, a framework for building user interfaces.\"},\"tbooop\":{\"title\":\"TBOOOP! A demake of \\\"The Binding of Isaac\\\"\",\"description\":\"A video game created for the \\\"Object-Oriented Programming\\\" course (A.Y 2023/24).\"},\"risikodb\":{\"title\":\"RisiKoDB: a management system for \\\"Risk!\\\" games\",\"description\":\"An application created for the \\\"Databases\\\" course using Unity and the .NET framework (A.Y. 2023/24).\"}},\"contact\":{\"header\":\"Contacts\"}}");
 
 },{}],"gPp5F":[function(require,module,exports,__globalThis) {
-module.exports = JSON.parse('{"infos":{"title":"Ingegnere Informatico (work in progress)"},"about":{"header":"Chi sono","experience":"Studente di Ingegneria e Scienze Informatiche presso UniBo (Campus di Cesena).<br>Ho preso parte al programma Erasmus+ nel 2024 presso <a href=\\"https://www.ntnu.edu/\\" style=\\"color: purple\\">NTNU</a> (Universit\xe0 Norvegese della Scienza e della Tecnologia)<br/>Ho lavorato con <a href=\\"https://oversonicrobotics.com/projects/robee/\\" style=\\"color: purple;\\">RoBee</a>, il primo robot umanoide cognitivo italiano.<br/>Puoi scaricare il mio CV <a href=\\"https://drive.google.com/file/d/1Xmh9UbosODvih4lt0EJ4u_DVKYa99fSY/view?usp=sharing\\" style=\\"color: purple;\\">qui</a>.","quote":"Sono appassionato di programmazione in ogni sua forma. Mi piace risolvere problemi e mettermi alla prova."},"portfolio":{"header":"Progetti","paragraph":"La maggior parte dei progetti a cui ho lavorato, sia accademici che personali, sono pubblicamente disponibili e consultabili sul mio <a href=\\"https://github.com/GioeleBucci\\" style=\\"color: purple;\\">profilo GitHub</a>.","fintech":{"title":"App Fintech","description":"Un\'applicazione cross-platform ispirata a Revolut, realizzata con React Native per il corso di \\"Sviluppo di Applicazioni Cross-Platform per Dispositivi Mobili\\" presso NTNU (A.A. 2024/25)."},"website":{"title":"Codice di questo sito","description":"Questa pagina \xe8 stata realizzata sulla base di un template usando JavaScript + React, un framework per la creazione di interfacce utente."},"tbooop":{"title":"TBOOOP! Un demake di \\"The Binding of Isaac\\"","description":"Un videogioco realizzato per il corso di \\"Programmazione ad Oggetti\\" (A.A. 2023/24)."},"risikodb":{"title":"RisiKoDB: un gestionale per partite a \\"RisiKo!\\"","description":"Un\'applicazione realizzata per il corso di \\"Basi di Dati\\" utilizzando Unity e il framework .NET (A.A. 2023/24)."}},"contact":{"header":"Contatti"}}');
+module.exports = JSON.parse('{"infos":{"title":"Ingegnere Informatico (work in progress)"},"about":{"header":"Chi sono","experience":"Studente di Ingegneria e Scienze Informatiche presso UniBo (Campus di Cesena).<br>Ho preso parte al programma Erasmus+ nel 2024 presso <a href=\\"https://www.ntnu.edu/\\" style=\\"color: purple\\">NTNU</a> (Universit\xe0 Norvegese della Scienza e della Tecnologia)<br/>Ho lavorato con <a href=\\"https://oversonicrobotics.com/projects/robee/\\" style=\\"color: purple;\\">RoBee</a>, il primo robot umanoide cognitivo italiano.<br/>Puoi visualizzare il mio CV <a href=\\"https://docs.google.com/document/d/e/2PACX-1vQMSnd6rAHTWEwMyyM11MPQyPH-8lGWyQ-CxnaxXPRG0e6eX0OjRFTY8ZmZBGN2sx_fEwi2M-LUuIbo/pub\\" style=\\"color: purple;\\">qui</a>.","quote":"Sono appassionato di programmazione in ogni sua forma. Mi piace risolvere problemi e mettermi alla prova."},"portfolio":{"header":"Progetti","paragraph":"La maggior parte dei progetti a cui ho lavorato, sia accademici che personali, sono pubblicamente disponibili e consultabili sul mio <a href=\\"https://github.com/GioeleBucci\\" style=\\"color: purple;\\">profilo GitHub</a>.","fintech":{"title":"App Fintech","description":"Un\'applicazione cross-platform ispirata a Revolut, realizzata con React Native per il corso di \\"Sviluppo di Applicazioni Cross-Platform per Dispositivi Mobili\\" presso NTNU (A.A. 2024/25)."},"website":{"title":"Codice di questo sito","description":"Questa pagina \xe8 stata realizzata sulla base di un template usando JavaScript + React, un framework per la creazione di interfacce utente."},"tbooop":{"title":"TBOOOP! Un demake di \\"The Binding of Isaac\\"","description":"Un videogioco realizzato per il corso di \\"Programmazione ad Oggetti\\" (A.A. 2023/24)."},"risikodb":{"title":"RisiKoDB: un gestionale per partite a \\"RisiKo!\\"","description":"Un\'applicazione realizzata per il corso di \\"Basi di Dati\\" utilizzando Unity e il framework .NET (A.A. 2023/24)."}},"contact":{"header":"Contatti"}}');
 
 },{}],"7BWx6":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
