@@ -118,7 +118,7 @@ const Footer = (props) => {
         )}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
-        Made with ❤️
+        Built with ❤️ and a sprinkle of React
       </p>
     </div>
   );
