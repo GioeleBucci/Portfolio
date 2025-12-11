@@ -27271,7 +27271,8 @@ var _stylesCss = require("./styles.css");
 var _s = $RefreshSig$();
 const infos = {
     name: "Gioele Bucci",
-    email: "gioele.bucci@studio.unibo.it",
+    email: "gioelebucci@gmail.com",
+    linkedIn: "gioele-bucci/",
     gitHub: "GioeleBucci"
 };
 const primaryColor = "#4E567E";
@@ -27283,7 +27284,7 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 32,
+                lineNumber: 33,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
@@ -27291,17 +27292,17 @@ const App = ()=>{
                 title: t("infos.title")
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 33,
+                lineNumber: 34,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 34,
+                lineNumber: 35,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 35,
+                lineNumber: 36,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27309,13 +27310,13 @@ const App = ()=>{
                 primaryColor: primaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 36,
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
-        lineNumber: 31,
+        lineNumber: 32,
         columnNumber: 5
     }, undefined);
 };
@@ -28856,7 +28857,7 @@ var _s = $RefreshSig$();
                     marginTop: 0,
                     color: "white"
                 },
-                children: "Made with \u2764\uFE0F"
+                children: "Built with \u2764\uFE0F and a sprinkle of React"
             }, void 0, false, {
                 fileName: "src/Components/Footer.jsx",
                 lineNumber: 120,
